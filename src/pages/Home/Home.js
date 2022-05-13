@@ -17,12 +17,12 @@ const Home = () => {
             edge of it. Well sit back, and relax because we’ll give you a <br />
             truly out of this world experience!
           </p>
-          <p className="home-footer">Coded by @PatriceAm 2022</p>
         </div>
         <div className="home-right">
           <Link to="/destination">EXPLORE</Link>
         </div>
       </div>
+      <p className="home-footer">Coded by @PatriceAm 2022</p>
     </div>
   );
 };

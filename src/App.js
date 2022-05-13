@@ -13,7 +13,7 @@ const App = () => {
   const [destination, setDestination] = useState([]);
   const [crew, setCrew] = useState([]);
   const [tech, setTech] = useState([]);
-  // console.log("from APP: ", jsonData.technology);
+
   useEffect(() => {
     setDestination(jsonData.destinations);
     setCrew(jsonData.crew);
@@ -25,12 +25,24 @@ const App = () => {
       <Routes>
         <Route
           path="/destination"
-          element={<Destination destination={destination} />}
+          element={
+            destination.length < 1 ? (
+              <Home />
+            ) : (
+              <Destination destination={destination} />
+            )
+          }
         />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/crew" element={<Crew crew={crew} />} />
-        <Route path="/technology" element={<Technology tech={tech} />} />
+        <Route
+          path="/crew"
+          element={crew.length < 1 ? <Home /> : <Crew crew={crew} />}
+        />
+        <Route
+          path="/technology"
+          element={tech.length < 1 ? <Home /> : <Technology tech={tech} />}
+        />
       </Routes>
 
       {/* <div><Home /></div> */}

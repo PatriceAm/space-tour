@@ -46,3 +46,17 @@
   margin-top: 0.4rem;
   font-weight: 400;
 }
+
+@media (max-width: 800px) {
+  .card {
+    width: 48vw;
+  }
+  .cardLower {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    width: 80vw;
+  }
+}

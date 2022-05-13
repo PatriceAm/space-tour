@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   background-color: transparent;
-  width: 70%;
+  width: 80%;
   height: 3rem;
   margin-left: 0px;
   font-size: 1.2rem;
@@ -19,6 +19,10 @@
   height: 3.5rem;
 }
 
+.destination_picture {
+  min-width: 300px;
+}
+
 .dest_nav_container button:focus {
   border-bottom: 2px solid grey;
   border-top: 2px solid transparent;
@@ -27,4 +31,34 @@
 .initialButton {
   border-bottom: 2px solid grey;
   border-top: 2px solid transparent;
+}
+
+.card_description_container {
+  height: 250px;
+}
+
+@media (max-width: 800px) {
+  .destination_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .destination_left {
+    height: 50vh;
+  }
+  .destination_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+  }
+  .destination_right {
+    max-width: unset;
+    /* bottom: 2rem; */
+  }
+}
+
+@media (max-width: 800px) {
+  .destination_content {
+    margin-top: 45vh;
+  }
 }

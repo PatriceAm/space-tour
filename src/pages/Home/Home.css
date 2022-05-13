@@ -68,4 +68,28 @@
 
 .home-footer {
   color: grey;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .home-content {
+    flex-direction: column;
+    margin-top: 35rem;
+  }
+  .home-container {
+    background: url(../../assets/home/background-home-mobile.jpg) no-repeat
+      center center/cover;
+    height: unset;
+    height: contain;
+    color: white;
+    animation: homeAnimation 1s;
+    overflow-x: hidden;
+  }
+
+  .home-footer {
+    margin-top: 20vh;
+    padding-bottom: 1rem;
+  }
 }
