@@ -1,0 +1,36 @@
+.crew_card_container {
+  width: 35vw;
+  font-family: "Bellefair", serif;
+}
+
+.crew_card_container h1 {
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: whitesmoke;
+  filter: brightness(0.9);
+}
+
+.crew_card_container h2 {
+  padding-top: 7rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: grey;
+}
+
+.crew_card_container p {
+  padding-top: 2rem;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.2rem;
+  color: grey;
+  filter: brightness(1.2);
+  line-height: 2rem;
+}
+
+.crew_card_bio {
+  height: 20vh;
+}
+
+.crew_card_name {
+  height: 10vh;
+}

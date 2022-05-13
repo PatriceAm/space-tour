@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.cardTitle {
+  font-family: "Bellefair", serif;
+  font-size: 6rem;
+}
+
+.cardDescription {
+  margin-top: 3rem;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  /* height: 15vh; */
+}
+
+.card_description_container {
+  height: 24vh;
+}
+
+.cardLine {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 4rem;
+}
+
+.cardLower {
+  display: flex;
+  margin-top: 3rem;
+  font-family: "Barlow Condensed", sans-serif;
+  align-items: flex-start;
+}
+
+.cardLower div {
+  margin-right: 5rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.cardLower div h3 {
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+  font-weight: 400;
+}

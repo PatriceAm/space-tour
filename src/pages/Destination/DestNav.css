@@ -1,0 +1,30 @@
+.dest_nav_container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 70%;
+  height: 3rem;
+  margin-left: 0px;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.dest_nav_container button {
+  margin-right: 2rem;
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+  font-size: 1.7rem;
+  height: 3.5rem;
+}
+
+.dest_nav_container button:focus {
+  border-bottom: 2px solid grey;
+  border-top: 2px solid transparent;
+}
+
+.initialButton {
+  border-bottom: 2px solid grey;
+  border-top: 2px solid transparent;
+}

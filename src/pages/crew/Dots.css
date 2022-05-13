@@ -1,0 +1,18 @@
+.dots_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 15vw;
+  margin-top: 10vh;
+}
+
+.dots_container button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.dots_container button:focus {
+  background-color: whitesmoke;
+}

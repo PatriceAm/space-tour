@@ -1,0 +1,71 @@
+.home-container {
+  background: url(../../assets/home/background-home-desktop.jpg) no-repeat
+    center center/cover;
+  height: 100vh;
+  color: white;
+  animation: homeAnimation 1s;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  margin-top: 38vh;
+}
+
+.home-left {
+  letter-spacing: 0.05rem;
+  color: whitesmoke;
+}
+
+.home-left-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+}
+
+.home-left-main {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 9rem;
+  letter-spacing: 0.2rem;
+}
+
+.home-left-text {
+  margin-top: 1rem;
+  font-family: "Barlow", sans-serif;
+  line-height: 2rem;
+  margin-bottom: 12vh;
+}
+
+.home-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 8rem;
+  background-color: whitesmoke;
+  font-family: "Bellefair", serif;
+  font-size: 2rem;
+  transition: all 500ms;
+}
+
+.home-right:hover {
+  outline: 60px solid;
+  outline-color: rgba(255, 255, 255, 0.2);
+  outline-offset: 0px;
+}
+
+.home-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-footer {
+  color: grey;
+}
