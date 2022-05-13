@@ -31,7 +31,7 @@ const Technology = ({tech}) => {
           <TechCard techChoice={techChoice} />
         </div>
         <div className="tech_image">
-          <img src={techChoice.images.portrait}></img>
+          <img src={techChoice.images.portrait} alt="technology"></img>
         </div>
       </div>
     </div>

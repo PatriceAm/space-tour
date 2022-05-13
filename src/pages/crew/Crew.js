@@ -29,7 +29,7 @@ const Crew = ({crew}) => {
           <Dots setCrew={setCrew} ini={ini} />
         </div>
         <div className="crew_image">
-          <img src={crewMember.images.png}></img>
+          <img src={crewMember.images.png} alt="members"></img>
         </div>
       </div>
     </div>

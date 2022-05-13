@@ -33,7 +33,7 @@ const Destination = ({destination}) => {
             <span>01</span> PICK YOUR DESTINATION
           </div>
           <div className="destination_picture">
-            <img src={planet} />
+            <img src={planet} alt="planet" />
           </div>
         </div>
 
