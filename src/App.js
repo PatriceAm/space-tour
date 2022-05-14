@@ -7,7 +7,6 @@ import Crew from "./pages/crew/Crew";
 import Technology from "./pages/technology/Technology";
 
 import jsonData from "./data.json";
-import "./App.css";
 
 const App = () => {
   const [destination, setDestination] = useState([]);
@@ -44,8 +43,6 @@ const App = () => {
           element={tech.length < 1 ? <Home /> : <Technology tech={tech} />}
         />
       </Routes>
-
-      {/* <div><Home /></div> */}
     </div>
   );
 };

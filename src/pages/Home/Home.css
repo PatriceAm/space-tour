@@ -17,6 +17,7 @@
 .home-left {
   letter-spacing: 0.05rem;
   color: whitesmoke;
+  width: 40%;
 }
 
 .home-left-title {
@@ -39,6 +40,7 @@
   font-family: "Barlow", sans-serif;
   line-height: 2rem;
   margin-bottom: 12vh;
+  text-align: justify;
 }
 
 .home-right {
@@ -69,7 +71,6 @@
 .home-footer {
   color: grey;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -88,8 +89,30 @@
     overflow-x: hidden;
   }
 
+  .home-left {
+    width: unset;
+  }
+
   .home-footer {
     margin-top: 20vh;
     padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .home-content {
+    text-align: center;
+    padding: 1rem;
+  }
+  .home-left-title {
+    font-size: 1.2rem;
+  }
+
+  .home-left-main {
+    font-size: 4rem;
+  }
+
+  .home-left-text {
+    text-align: justify;
   }
 }

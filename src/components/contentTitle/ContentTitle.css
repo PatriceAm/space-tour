@@ -11,3 +11,9 @@
   color: grey;
   font-weight: 700;
 }
+
+@media (max-width: 650px) {
+  .content_title {
+    width: unset;
+  }
+}

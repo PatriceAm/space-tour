@@ -4,18 +4,25 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   height: 100vh;
   background-color: hsl(230, 35%, 7%);
 }
 
-/* font-family: 'Barlow', sans-serif;
-font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Bellefair', serif; */
-
 img {
   max-width: 100%;
   display: block;
+}
+
+@media (max-width: 650px) {
+  img {
+    max-width: 70%;
+    margin-left: 3rem;
+  }
 }
 
 button {

@@ -11,7 +11,7 @@
 
 .tech_container_content {
   margin-top: 20vh;
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -22,6 +22,43 @@
 }
 
 .tech_left {
-  /* background-color: aqua; */
   width: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .tech_container {
+    background: url(../../assets/technology/background-technology-mobile.jpg)
+      no-repeat center center/cover;
+    height: unset;
+  }
+
+  .tech_container_content {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tech_left {
+    width: unset;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .tech_mid {
+    margin-top: 5rem;
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tech_image {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .tech_container_content {
+    margin-top: 30rem;
+  }
 }

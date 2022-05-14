@@ -1,7 +1,6 @@
 .destination_container {
   background: url(../../assets/destination/background-destination-desktop.jpg)
     no-repeat center center/cover;
-  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -11,7 +10,6 @@
 .destination_content {
   margin: 0 auto;
   display: flex;
-  /* align-items: center; */
   justify-content: space-evenly;
   width: 97vw;
   margin-top: 20vh;
@@ -22,11 +20,9 @@
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  max-width: 23vw;
   justify-content: space-between;
   align-items: center;
   height: 60vh;
-  /* margin-bottom: 6rem; */
 }
 
 .destination_title {
@@ -54,4 +50,34 @@
   justify-content: space-between;
   align-items: flex-start;
   height: 60vh;
+}
+
+@media (max-width: 800px) {
+  .destination_container {
+    background: url(../../assets/destination/background-destination-mobile.jpg)
+      no-repeat center center/cover;
+    height: unset;
+  }
+
+  .destination_right {
+    min-width: 70%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .destination_left {
+    padding: 1rem;
+    height: 35vh;
+  }
+  .destination_title {
+    font-size: 1.5rem;
+  }
+
+  .destination_right {
+    max-width: unset;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 8rem;
+  }
 }

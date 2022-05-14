@@ -9,6 +9,7 @@
   font-weight: 400;
   color: whitesmoke;
   filter: brightness(0.9);
+  min-width: 360px;
 }
 
 .crew_card_container h2 {
@@ -19,6 +20,7 @@
 }
 
 .crew_card_container p {
+  min-width: 300px;
   padding-top: 2rem;
   font-family: "Barlow", sans-serif;
   font-size: 1.2rem;
@@ -33,4 +35,27 @@
 
 .crew_card_name {
   height: 10vh;
+}
+
+@media (max-width: 1200px) {
+  .crew_card_container {
+    width: 60vw;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 650px) {
+  .crew_card_container h1 {
+    font-size: 1.5rem;
+  }
+
+  .crew_card_container p {
+    font-size: 1rem;
+    min-width: 300px;
+  }
+}
+@media (max-width: 650px) {
+  .crew_card_container {
+    width: 90%;
+  }
 }

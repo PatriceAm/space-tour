@@ -53,10 +53,36 @@
   }
   .cardLower {
     padding-bottom: 2rem;
+    justify-content: space-between;
+  }
+  .cardLower div {
+    margin-right: unset;
+  }
+  .cardLower div h3 {
+    text-align: center;
   }
 }
-@media (max-width: 500px) {
+
+@media (max-width: 650px) {
   .card {
     width: 80vw;
+  }
+
+  .cardTitle {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .cardLower {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .cardLower div {
+    text-align: center;
+  }
+
+  .cardLower div:first-child {
+    margin-bottom: 2rem;
   }
 }

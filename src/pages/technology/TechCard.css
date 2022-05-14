@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+  .tech_card_container {
+    width: 400px;
+    height: 600px;
+  }
+}
+@media (max-width: 650px) {
+  .tech_card_container {
+    width: 90%;
+    padding: 2rem;
+
+    height: unset;
+  }
+}

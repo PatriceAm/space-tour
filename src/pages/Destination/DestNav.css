@@ -1,8 +1,7 @@
 .dest_nav_container {
   display: flex;
-  align-items: center;
   background-color: transparent;
-  width: 80%;
+  width: 100%;
   height: 3rem;
   margin-left: 0px;
   font-size: 1.2rem;
@@ -17,10 +16,7 @@
   border: none;
   font-size: 1.7rem;
   height: 3.5rem;
-}
-
-.destination_picture {
-  min-width: 300px;
+  cursor: pointer;
 }
 
 .dest_nav_container button:focus {
@@ -42,22 +38,27 @@
     flex-direction: column;
     align-items: center;
   }
-  .destination_left {
-    height: 50vh;
-  }
-  .destination_title {
-    display: flex;
+
+  .dest_nav_container {
     align-items: center;
     justify-content: center;
-    width: 60vw;
   }
-  .destination_right {
-    max-width: unset;
-    /* bottom: 2rem; */
+
+  .dest_nav_container button {
+    margin-bottom: 2rem;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
+  .dest_nav_container {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .dest_nav_container button {
+    font-size: 1.2rem;
+  }
+
   .destination_content {
     margin-top: 45vh;
   }

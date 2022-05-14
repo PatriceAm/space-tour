@@ -15,9 +15,27 @@
   font-size: 1.8rem;
   font-weight: 400;
   margin-top: 3rem;
+  cursor: pointer;
 }
 
 .bullets_container button:focus {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 1200px) {
+  .bullets_container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .bullets_container button {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
 }

@@ -47,8 +47,6 @@
 }
 
 .nav-menu div:active {
-  /* border-bottom: 2px solid white;
-  border-top: 2px solid transparent; */
   color: grey;
 }
 
@@ -63,6 +61,10 @@
 a {
   margin-top: 1.4rem;
   height: 3.2rem;
+}
+
+#icon {
+  margin-bottom: 1.4rem;
 }
 
 .nav .active {
@@ -97,7 +99,7 @@ a {
   }
   .nav-icon {
     padding-left: unset;
-    transform: scale(1);
+    transform: scale(1.6);
   }
 }
 
