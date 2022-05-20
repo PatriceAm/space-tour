@@ -1,9 +1,22 @@
 .home-container {
+  color: white;
+  animation: vidAnimation 43s;
+}
+
+.home-container-static {
   background: url(../../assets/home/background-home-desktop.jpg) no-repeat
     center center/cover;
   height: 100vh;
-  color: white;
-  animation: homeAnimation 1s;
+  animation: backAnimation 6s;
+}
+
+.home-container video {
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  height: auto;
+  top: 0;
 }
 
 .home-content {
