@@ -42,7 +42,7 @@
 }
 
 .home-left-main {
-  font-family: "Bellefair", serif;
+  font-family: "Barlow condensed", serif;
   font-weight: 400;
   font-size: 9rem;
   letter-spacing: 0.2rem;
@@ -50,7 +50,7 @@
 
 .home-left-text {
   margin-top: 1rem;
-  font-family: "Barlow", sans-serif;
+  font-family: "Barlow condensed", sans-serif;
   line-height: 2rem;
   margin-bottom: 12vh;
   text-align: justify;
@@ -64,21 +64,22 @@
   width: 2rem;
   border-radius: 50%;
   padding: 8rem;
-  background-color: whitesmoke;
-  font-family: "Bellefair", serif;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Barlow", serif;
   font-size: 2rem;
   transition: all 500ms;
 }
 
 .home-right:hover {
   outline: 60px solid;
-  outline-color: rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0.1);
   outline-offset: 0px;
 }
 
 .home-right a {
   text-decoration: none;
-  color: black;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 .home-footer {

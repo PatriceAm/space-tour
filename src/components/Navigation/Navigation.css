@@ -39,11 +39,16 @@
   display: flex;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   letter-spacing: 0.2rem;
   align-items: center;
   height: 5rem;
   cursor: pointer;
+}
+
+.nav-menu div a:hover {
+  color: grey;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .nav-menu div:active {
@@ -115,5 +120,8 @@ a {
     flex-direction: column;
     height: 20rem;
     align-items: flex-start;
+  }
+  .nav-icon {
+    margin: 0 auto;
   }
 }
